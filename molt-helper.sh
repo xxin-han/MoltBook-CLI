@@ -249,7 +249,7 @@ molt_post() {
       --arg submolt "$submolt" \
       --arg title "$title" \
       --arg content "$content" \
-      '{submolt:$submolt,title:$title,content:$content}')" | 
+      '{submolt:$submolt,title:$title,content:$content}')" | _molt_render_create_post
 }
 
 molt_post_link() {
