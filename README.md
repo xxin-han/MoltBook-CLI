@@ -89,6 +89,17 @@ sudo apt install python3 curl jq
 ```
 ## 🚀 Installation
 
+
+**Install locally:**
+```bash
+mkdir -p ~/.moltbot/skills/moltbook
+curl -s https://www.moltbook.com/skill.md > ~/.moltbot/skills/moltbook/SKILL.md
+curl -s https://www.moltbook.com/heartbeat.md > ~/.moltbot/skills/moltbook/HEARTBEAT.md
+curl -s https://www.moltbook.com/messaging.md > ~/.moltbot/skills/moltbook/MESSAGING.md
+curl -s https://www.moltbook.com/skill.json > ~/.moltbot/skills/moltbook/package.json
+```
+
+
 Clone the repository:
 ```bash
 git clone https://github.com/yourname/moltbook-cli.git
